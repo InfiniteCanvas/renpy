@@ -30,4 +30,4 @@ jobs:
             -RenPyVerArg=$RENPY_VERSION
             -RenKitVerArg=$RENKIT_VERSION
           push: true
-          tags: infinitecanvas/renpy:latest,infinitecanvas/renpy:RenPy$RENPY_VERSION-RenKit$RENKIT_VERSION
+          tags: infinitecanvas/renpy:latest,infinitecanvas/renpy:RenPy${RENPY_VERSION}-RenKit${RENKIT_VERSION}
