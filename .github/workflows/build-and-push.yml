@@ -26,6 +26,8 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v2
         with:
-          build-args: RenPyVerArg=$RENPY_VERSION,RenKitVerArg=$RENKIT_VERSION
+          build-args: 
+            -RenPyVerArg=$RENPY_VERSION
+            -RenKitVerArg=$RENKIT_VERSION
           push: true
           tags: infinitecanvas/renpy:latest,infinitecanvas/renpy:RenPy$RENPY_VERSION-RenKit$RENKIT_VERSION
