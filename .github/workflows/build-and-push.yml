@@ -24,6 +24,6 @@ jobs:
         with:
           build-args: 
             RenPyVerArg="7.4.11"
-            RenKitVerArg="1.2.1"
+            --build-arg RenKitVerArg="1.2.1"
           push: true
           tags: infinitecanvas/renpy:latest,infinitecanvas/renpy:RenPy7.4.11-RenKit1.2.1
