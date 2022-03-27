@@ -7,8 +7,8 @@ ARG RenKitVerArg="1.2.1"
 
 ENV RENPY_DIR="/renpy"
 ENV RENKIT_DIR="/usr/local/bin"
-ENV RENKIT_VERSION=$RenKitVerArg
-ENV RENPY_VERSION=$RenPyVerArg
+ENV RENKIT_VERSION=${$RenKitVerArg:-"1.2.1"}
+ENV RENPY_VERSION=${RenPyVerArg:-"7.4.11"}
 
 RUN apt-get -y update \
     && apt-get -qqy --no-install-recommends install \
