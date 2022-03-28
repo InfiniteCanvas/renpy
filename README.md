@@ -1,4 +1,4 @@
-[![build-and-push](https://github.com/InfiniteCanvas/renpy/actions/workflows/build-and-push.yml/badge.svg?branch=main)](https://github.com/InfiniteCanvas/renpy/actions/workflows/build-and-push.yml)
+[![build](https://github.com/InfiniteCanvas/renpy/actions/workflows/build-and-push.yml/badge.svg?branch=rp7.4.11-rk1.2.1)](https://github.com/InfiniteCanvas/renpy/actions/workflows/build-and-push.yml)
 
 This [image](https://hub.docker.com/r/infinitecanvas/renpy) uses **[renkit](https://github.com/kobaltcore/renkit)**. <br>
 The binaries have been put in ``/usr/local/bin`` and can be called like this:
