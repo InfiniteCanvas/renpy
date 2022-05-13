@@ -1,6 +1,7 @@
 [![build](https://github.com/InfiniteCanvas/renpy/actions/workflows/build-and-push.yml/badge.svg?branch=rp7.4.11-rk1.2.1)](https://github.com/InfiniteCanvas/renpy/actions/workflows/build-and-push.yml)
 
 This [image](https://hub.docker.com/r/infinitecanvas/renpy) uses **[renkit](https://github.com/kobaltcore/renkit)**. <br>
+Also added **[megatools](https://megatools.megous.com/)** and **[go-pd](https://github.com/ManuelReschke/go-pd)**. <br>
 The binaries have been put in ``/usr/local/bin`` and can be called like this:
 
 
