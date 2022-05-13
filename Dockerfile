@@ -22,3 +22,4 @@ RUN wget -O megatools.tar.gz https://megatools.megous.com/builds/experimental/me
 RUN tar -xf megatools.tar.gz 
 RUN mv megatools-1.11.0-git-20220401-linux-x86_64/megatools /usr/local/bin
 RUN wget -O /usr/local/bin/go-pd https://github.com/ManuelReschke/go-pd/raw/main/bin/linux/go-pd
+RUN chmod +x /usr/local/bin/go-pd
