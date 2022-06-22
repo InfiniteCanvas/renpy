@@ -1,13 +1,14 @@
-FROM --platform=amd64 openjdk:8u312-jdk-slim
+FROM --platform=amd64 openjdk:8-jdk-slim-bullseye
 
 LABEL maintainer="Infinite Canvas"
 
 ARG RENPY_VERSION="7.4.11"
-ARG RENKIT_VERSION="1.2.3"
+ARG RENKIT_VERSION="2.1.1"
 ARG MEGATOOLS_VERSION="megatools-1.11.0.20220519-linux-x86_64"
 
-ENV RENKIT_VERSION=${RENKIT_VERSION:-"1.2.3"}
+ENV RENKIT_VERSION=${RENKIT_VERSION:-"2.1.1"}
 ENV RENPY_VERSION=${RENPY_VERSION:-"7.4.11"}
+ENV DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get -y update \
     && apt-get -qqy --no-install-recommends install \
